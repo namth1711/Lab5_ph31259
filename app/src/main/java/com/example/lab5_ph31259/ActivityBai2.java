@@ -44,10 +44,9 @@ public class ActivityBai2 extends AppCompatActivity {
                     }
                 }
         );
-
-        lst.add(new SinhVienModel("FPoly Hà Nội", "Nguyễn Văn Dũng", "Lào Cai"));
-        lst.add(new SinhVienModel("FPoly Đà Nẵng", "Nguyễn Tiến Anh", "Quảng Nam"));
-        lst.add(new SinhVienModel("FPoly Tây Nguyên", "Trần Tiến Đạt", "Đăk Lăk"));
+        lst.add(new SinhVienModel("FPoly Hà Nội", "Trịnh Hoài Nam", "Lào Cai"));
+        lst.add(new SinhVienModel("FPoly Đà Nẵng", "Đinh Tiến Lực", "Ninh Bình"));
+        lst.add(new SinhVienModel("FPoly Tây Nguyên", "Mai Trọng Linh", "Nam Định"));
         fill();
 
         btThemMoi.setOnClickListener(new View.OnClickListener() {
